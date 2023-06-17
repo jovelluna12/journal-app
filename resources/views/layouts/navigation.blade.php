@@ -15,7 +15,7 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         Journal
                     </x-nav-link>
-                    <x-nav-link :href="route('dashboard')" >
+                    <x-nav-link :href="route('journal')" :active="request()->routeIs('journal')">
                         Add New Journal
                     </x-nav-link>
                     

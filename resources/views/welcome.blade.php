@@ -32,7 +32,7 @@
                 </div>
             @endif
 
-            {{ __('Dashboard') }}
+            {{ __('Dashboard') }} 
 
 
         </div>
